@@ -6,13 +6,15 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
+  AppRegistry
+  // StyleSheet,
+  // Text,
+  // View
 } from 'react-native';
 
-export default class ShatApp extends Component {
+import ShatApp from './ShatApp';
+
+/*export default class ShatApp extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -48,6 +50,6 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
-});
+});*/
 
 AppRegistry.registerComponent('ShatApp', () => ShatApp);
