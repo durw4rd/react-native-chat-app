@@ -4,7 +4,6 @@ const Person = t.struct({
   name: t.String,
   email: t.String,
   password: t.String,
-  rememberMe: t.Boolean
 });
 
 export const formOptions = {

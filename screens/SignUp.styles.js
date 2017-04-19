@@ -23,11 +23,31 @@ export default StyleSheet.create({
   button: {
     height: 36,
     backgroundColor: '#48BBEC',
-    borderColor: '#48BBEC',
-    borderWidth: 1,
+    //borderColor: '#48BBEC',
+    //borderWidth: 1,
     borderRadius: 8,
     marginBottom: 10,
     alignSelf: 'stretch',
     justifyContent: 'center'
   },
+  buttonPrimary: {
+    height: 36,
+    backgroundColor: '#00acc1',
+    //borderColor: '#48BBEC',
+    //borderWidth: 1,
+    borderRadius: 2,
+    marginBottom: 10,
+    alignSelf: 'stretch',
+    justifyContent: 'center'
+  },
+  buttonSecondary: {
+    height: 36,
+    backgroundColor: '#e53935',
+    //borderColor: '#48BBEC',
+    //borderWidth: 1,
+    borderRadius: 2,
+    marginBottom: 10,
+    alignSelf: 'stretch',
+    justifyContent: 'center'
+  }
 });
